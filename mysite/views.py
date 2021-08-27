@@ -2,7 +2,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Hello, dazeb")
+    return HttpResponse("<h1>Welcome to Django</h1>")
 
 def page(request):
-    return HttpResponse("new page")
+    return HttpResponse("<h1>New Page Heading</h1>")
