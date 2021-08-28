@@ -6,3 +6,6 @@ def index(request):
 
 def page(request):
     return HttpResponse("<h1>New Page Heading</h1>")
+
+def product(request):
+    return HttpResponse("<h1>products</h1>")
