@@ -18,12 +18,3 @@ def about_view(request, *args, **kwargs):
       "my_list": [123, 3456, 4567]
     }
     return render(request, "about.html", my_context)
-
-def blog_view(request, *args, **kwargs):
-    #return HttpResponse("<h1>Blog Page</h1>") # String of HTML Code
-    return render(request, "blog.html", {})
-
-
-def socials_view(request, *args, **kwargs):
-    #return HttpResponse("<h1>Socials Page</h1>") # String of HTML Code 
-    return render(request, "socials.html", {})   
